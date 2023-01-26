@@ -1,0 +1,23 @@
+#
+# NoOpPlayer By Jonakls
+#
+# Group or rank that will be tested.
+groups-deny:
+  - owner
+  - admin
+# This permission will be false to the bypass ban
+permission-bypass: noopplayer.server.bypass
+# Enable or disable bypass message
+bypass-message-option: true
+# Message to bypass check
+bypass-message: '&cYou bypass te check of ban'
+# You can configure the options of ban
+options:
+  # Ban because to no get permission
+  reason-permission: 'You don''t have permission to bypass'
+  # Ban when player is op
+  reason-op: 'You are op, please quit op'
+  # Command to execute will be fallen the check
+  commands:
+    - 'ban %player% %reason%'
+    - 'bc &c%player%'
