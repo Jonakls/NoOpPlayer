@@ -3,7 +3,7 @@
 Basic defensive system that does not allow users with "OP" role to connect or play on the server.
 
 ## 🎱 Links
-* [GitHub](https://github.com/jonakls/NoOpPlayer)
+* [GitHub](https://github.com/jonakls/no-op-player)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [SpigotMC](https://www.spigotmc.org/resources/noopplayer.91422/)
 
